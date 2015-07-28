@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+ 
+    <title>Portfolio - Project 1</title>
+   <link rel="stylesheet" href="css/style.css">
+   
+  </head>
+  <body>
+  
+  <div class="container">
+  
+    <div class="row"> 
+      <div class="col-md-6"><img src="http://www.lorempixum.com/g/100/100" alt="random image"></div>
+      <div class="col-md-6 text-uppercase text-right">
+        <h1>johannes</h1>
+        <h3>Front-end Student</h3>
+      </div>
+    </div>
+    
+    <hr/>
+    <div class="row">
+    <div class="col-md-12">
+      <img src="http://www.lorempixum.com/g/1450/350" alt="random image" class="img-responsive">
+    </div>
+    </div>
+    
+    <div class="row">
+    <div class="col-md-12">
+      <h2>Featured Work</h2>
+    </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="http://placekitten.com/555/300" alt="random kitten" class="img-responsive" data-toggle="modal" data-target="#project1">
+        <h3>Basic Portfolio - Click Image</h3>
+        <p><a href="https://github.com/midnigtoil/portfolio">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placehold.it/555x300" alt="place holder" class="img-responsive">
+        <h3>More Coming Soon</h3>
+        <p><a href="https://github.com/midnigtoil/portfolio">Link to project</a></p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <img src="http://placehold.it/555x300" alt="place holder" class="img-responsive">
+        <h3>More Coming Soon</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placehold.it/555x300" alt="place holder" class="img-responsive">
+        <h3>More Coming Soon</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div>
+    </div>
+    
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Project One Information</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://www.lorempixum.com/g/555/300" alt="place holder" onclick="alert('random image');">
+        First modal made with Bootstrap and some random image used as a place holder from lorempixum.com.  Click on image for alert box.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
