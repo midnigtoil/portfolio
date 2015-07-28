@@ -1,0 +1,25 @@
+*{
+font-family: 'Orbitron', sans-serif;
+}
+
+.row:nth-child(5) .col-md-6:first-child img:hover{
+outline:5px solid blue;
+}
+
+
+body > div.container > div:nth-child(1) > div:nth-child(1) > img{
+margin-top:5px;
+}
+
+body > div.container > div:nth-child(5) > div{
+text-align:center;
+}
+
+body > div.container > div:nth-child(6) > div{
+text-align:center;
+}
+
+hr{height:5px;background:#BCBBBB;
+}
+
+a{color:#BCBBBB;}
