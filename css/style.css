@@ -1,0 +1,51 @@
+* {
+  font-family: "Orbitron", sans-serif;
+}
+
+.link:hover {
+  outline: 5px solid blue;
+}
+
+.small {
+padding:5px 0 0 0;
+}
+
+.right {
+  text-align: right;
+}
+
+h3,
+p {
+  text-align: center;
+}
+
+hr {
+  height: 5px;
+  background: #bcbbbb;
+}
+
+a {
+  color: #bcbbbb;
+}
+
+@media screen and (min-width: 700px) and (max-width: 991px) {
+
+  .img-responsive {
+    display: block;
+    margin: 0 auto;
+  }
+
+  div.text-right {
+    float: right;
+    display: block;
+    margin-top:0;
+    padding: 4px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .small {
+    float: left;
+  }
+}
